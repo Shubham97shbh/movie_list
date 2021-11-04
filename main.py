@@ -8,7 +8,6 @@ import requests
 
 URL_movie_search = "https://api.themoviedb.org/3/search/movie"
 param = {'api_key': '5559462b5f37070567f7964b20779ee7', 'language': 'en-US', 'include_adult': 'true', 'query': ''}
-
 movie_param = {'api_key': '5559462b5f37070567f7964b20779ee7'}
 
 app = Flask(__name__)
